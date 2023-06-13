@@ -5,7 +5,9 @@ const Resume = ()=>{
         <div>
             <h2>Resume</h2>
             <h3>Download my <a href='Something'>resume</a></h3>
-            <div className="resume"></div>
+            <div className="resume">
+                Sample Text
+            </div>
         </div>
     )
 }
