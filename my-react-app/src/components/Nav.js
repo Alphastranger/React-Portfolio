@@ -7,16 +7,18 @@ import Resume from './Resume'
 
 const Nav = () => {
     const [activePage, setActive] = useState(['','','',''])
-    const headingHighlights =['About Me', 'Portfolio', 'Contact', 'Resume']
+    const headingHighlights =['About-Me', 'contact', 'portfolio', 'resume']
     for (let i=0; i<headingHighlights.length; i++){
      if (window.location.href.indexOf(headingHighlights[i])>-1) {
-        setActive[i]('active')
+        activePage[i]=('active')
+     } else {
+        activePage[i]=('')
      }
 }
     return (
         <nav className={'headings'}>
             <ul>
-                <Link to='/'><li className= {activePage[0]}>{headingHighlights[0]}</li></Link>
+                <Link to='/About-Me'><li className= {activePage[0]}>{headingHighlights[0]}</li></Link>
 
                 <Link to='/contact'><li className= {activePage[1]}>{headingHighlights[1]}</li></Link>
 

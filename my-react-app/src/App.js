@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Nav from './components/Nav';
+import Main from './components/Main-Page';
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import './App.css';
 
@@ -15,7 +16,7 @@ function App() {
       <Header />
       <Routes>
 
-        <Route path='/' component={AboutMe}></Route>
+        <Route path='/About-Me' component={AboutMe}></Route>
 
         <Route path='/contact' component={Contact}></Route>
 
@@ -23,7 +24,7 @@ function App() {
 
         <Route path='/resume' component={Resume}></Route>
       </Routes>
-      <AboutMe />
+      <Main/>
       <Footer />
     </div>
   )

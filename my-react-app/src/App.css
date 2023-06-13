@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 .active {
-  Color: blue;
+  background-color: blue;
 }
 
 @keyframes App-logo-spin {
