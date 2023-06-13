@@ -25,6 +25,10 @@ const Main = () =>{
         return (
            <div> <Resume/></div>
         )
+     } else {
+        return (<div>
+            <AboutMe/>
+        </div>)
      }
 }
 

@@ -27,9 +27,18 @@
 .App-link {
   color: #61dafb;
 }
+
+
 .active {
   background-color: blue;
 }
+.projects {
+  background-color: grey;
+  background-image: url('../public/logo192.png');
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {

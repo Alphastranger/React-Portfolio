@@ -12,6 +12,7 @@ const Nav = () => {
      if (window.location.href.indexOf(headingHighlights[i])>-1) {
         activePage[i]=('active')
      } else {
+        activePage[0]=('active')
      }
 }
     return (

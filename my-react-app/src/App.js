@@ -15,7 +15,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-
+        <Route path ='/' component={AboutMe}></Route>
         <Route path='/About-Me' component={AboutMe}></Route>
 
         <Route path='/contact' component={Contact}></Route>
