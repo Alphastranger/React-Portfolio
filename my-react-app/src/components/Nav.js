@@ -11,20 +11,20 @@ const Nav = () => {
     for (let i=0; i<headingHighlights.length; i++){
      if (window.location.href.indexOf(headingHighlights[i])>-1) {
         activePage[i]=('active')
-     } else {
+     } else if (window.location.href.indexOf(headingHighlights[i])<1){
         activePage[0]=('active')
      }
 }
     return (
         <nav className={'headings'}>
             <ul>
-                <Link to='/About-Me'><li className= {activePage[0]}>{headingHighlights[0]}</li></Link>
+                <Link to='/About-Me'><li className= {`${activePage[0]} navLinks`}>{headingHighlights[0]}</li></Link>
 
-                <Link to='/contact'><li className= {activePage[1]}>{headingHighlights[1]}</li></Link>
+                <Link to='/contact'><li className= {`${activePage[1]} navLinks`}>{headingHighlights[1]}</li></Link>
 
-                <Link to='/portfolio'><li className= {activePage[2]}>{headingHighlights[2]}</li></Link>
+                <Link to='/portfolio'><li className= {`${activePage[2]} navLinks`}>{headingHighlights[2]}</li></Link>
 
-                <Link to='/resume'><li className= {activePage[3]}>{headingHighlights[3]}</li></Link>
+                <Link to='/resume'><li className= {`${activePage[3]} navLinks`}>{headingHighlights[3]}</li></Link>
             </ul>
         </nav>
     )

@@ -8,7 +8,7 @@ import Nav from './Nav'
 const Header = (props) => {
     return (
         <div className={'header'}>
-            <div>Joseph Flynn</div>
+            <div className={'myName'}>Joseph Flynn</div>
             <Nav/>
         </div>
     )

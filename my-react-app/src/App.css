@@ -28,9 +28,31 @@
   color: #61dafb;
 }
 
-
 .active {
+  display: inline;
   background-color: blue;
+}
+
+.navLinks {
+  color: lightgrey;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  left: 900px;
+  top: 60px;
+  float: left;
+  padding: 4px;
+}
+.navLinks:hover {
+  background-color: blue;
+}
+a:link {
+  text-decoration: none;
+}
+.header {
+  display: block;
+  height: 140px;
+  background-image:linear-gradient(to right, rgb(39,114,107), rgb(10,90,30));
 }
 .projects {
   background-color: grey;
