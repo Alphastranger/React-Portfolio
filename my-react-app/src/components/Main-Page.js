@@ -5,9 +5,8 @@ import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 
 const Main = () =>{
-    const headings =['About-Me', 'Portfolio', 'Contact', 'Resume']
+    const headings =['About-Me', 'portfolio', 'contact', 'resume']
     const renderings = [AboutMe, Portfolio, Contact, Resume]
-    // for (let i=0; i<headings.length; i++){
      if (window.location.href.indexOf(headings[0])>-1) {
         return (
             <div>
@@ -27,11 +26,6 @@ const Main = () =>{
            <div> <Resume/></div>
         )
      }
-// return (
-//     <div>
-//         <headings/>
-//     </div>
-// )
 }
 
 export default Main
