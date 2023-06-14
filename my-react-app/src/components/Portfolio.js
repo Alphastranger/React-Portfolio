@@ -3,7 +3,7 @@ import Project from './Project'
 
 const Portfolio = () => {
     return (
-        <div className="portfolioPics">
+        <div className={"portfolioPics"}>
             <Project/>
         </div>
     )

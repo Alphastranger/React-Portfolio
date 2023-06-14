@@ -60,15 +60,14 @@
 .bottomScreen {
   display: flex;
   position: relative;
-  bottom: -400px;
   justify-content: center;
   align-items: flex-start;
-  background-color: #282c34;
-  height: 200px
+  height: 60px;
+  margin-top: auto;
 }
 .footer {
-  color: lightgrey;
-  justify-content: space-between;
+  color: #282c34;
+  justify-content: flex-start;
   position: relative;
   top: 20px;
   display: block;
@@ -100,6 +99,9 @@ a:link {
 }
 body {
   background-color: rgb(189, 212, 232);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .header {
   display: block;
@@ -119,11 +121,27 @@ h2, h3{
   font-size: 36px;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
+.portfolioPics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content:stretch
+}
 .projects {
   background-color: grey;
-  background-image: url('../public/logo192.png');
+  background-image: url('../images/Joeyface.jpeg');
+  height: 100%;
 }
-
+.resumeParent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.resume {
+  display: flex;
+}
 
 
 
