@@ -36,7 +36,7 @@ const Contact = ()=>{
                 <h3>Email address:</h3>
                 <input type="text" value={secondInput} name="email" onChange={inputChange}></input>
                 <h3>Message:</h3>
-                <input type="textarea" value={thirdInput} name="message" onChange={inputChange}></input>
+                <input type="textarea" value={thirdInput} name="message" onChange={inputChange}></input><br></br>
                 <button className="submitBut">Submit</button>
 
             </form>

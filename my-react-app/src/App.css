@@ -45,6 +45,34 @@
   display: inline;
   background-color: lightcyan;
 }
+.contactPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contactForm button {
+  background-color: rgb(39, 114, 107);
+  border-radius: 4px;
+  display: flex;
+  margin-left: 40px;
+}
+.bottomScreen {
+  display: flex;
+  position: relative;
+  bottom: -400px;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #282c34;
+  height: 200px
+}
+.footer {
+  color: lightgrey;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+  display: block;
+}
 .headings {
   display: flex;
   justify-content: flex-end;

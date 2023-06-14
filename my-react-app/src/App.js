@@ -25,7 +25,7 @@ function App() {
         <Route path='/resume' component={Resume}></Route>
       </Routes>
       <Main/>
-      <Footer />
+      <Footer/>
     </div>
   )
 }
