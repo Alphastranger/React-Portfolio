@@ -6,7 +6,7 @@ import Resume from "./Resume";
 
 const Main = () =>{
     const headings =['About-Me', 'portfolio', 'contact', 'resume']
-    const renderings = [AboutMe, Portfolio, Contact, Resume]
+
      if (window.location.href.indexOf(headings[0])>-1) {
         return (
             <div>
