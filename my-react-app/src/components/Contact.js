@@ -11,6 +11,10 @@ const Contact = ()=>{
             alert('Invalid email or username')
             return;
         }
+        if(!thirdInput) {
+            alert('Message Required')
+            return;
+        }
         localStorage.setItem('Name', firstInput)
         localStorage.setItem('Email', secondInput)
         localStorage.setItem('Message', thirdInput)
@@ -18,7 +22,6 @@ const Contact = ()=>{
         setSecondInput('')
         setThirdInput('')
     }
-
   const inputChange = (e) => {
      const {target} = e;
         const inputType = target.name;

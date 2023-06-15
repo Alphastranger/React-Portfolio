@@ -135,6 +135,12 @@ h2, h3{
 .project2 {
   background-image: url('../images/GamesNow.png');
 }
+.project3 {
+  background-image: url('../images/WeatherReporter.png')
+}
+.project4 {
+  background-image: url('../images/PasswordGenerator.png');
+}
 .resumeParent {
   display: flex;
   justify-content: center;

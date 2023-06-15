@@ -4,7 +4,7 @@ const Resume = ()=>{
     return (
         <div className={'resumeParent'}>
             <h2>Resume</h2>
-            <h3>Download my <a href='https://docs.google.com/document/d/17XU9VmlgqIZFgggzvm3WApcD0VohnGk6oDSn3n8T0wA/edit?usp=sharing'>resume</a></h3>
+            <h3>Download My <a href='https://docs.google.com/document/d/17XU9VmlgqIZFgggzvm3WApcD0VohnGk6oDSn3n8T0wA/edit?usp=sharing'>Resume</a></h3>
             <h3>List of Skills:</h3>
             <div className="resume">
                 <h3>Front End</h3>
