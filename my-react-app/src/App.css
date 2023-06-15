@@ -41,6 +41,10 @@
   display: flex;
   justify-content: flex-start;
 }
+.faceImage {
+  height: 300px;
+  width: 300px;
+}
 .active {
   display: inline;
   background-color: lightcyan;
@@ -127,9 +131,14 @@ h2, h3{
   justify-content: center;
   align-items: flex-start;
   align-content:stretch;
+  flex-direction: row;
 }
 .project1 {
+  justify-content: space-between;
   background-image: url('./images/Project1img.png');
+}
+.project1:hover {
+  background-color: aliceblue;
 }
 .project2 {
   background-image: url('./images/GamesNow.png');
