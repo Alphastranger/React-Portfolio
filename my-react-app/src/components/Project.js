@@ -3,14 +3,14 @@ import React from "react";
 const Project = (props)=>{
     return (
         <div>
-        <a href='Placeholder' className={"projects"}>
+        <a href='"https://kaylanorris.github.io/morning-java"' className={"project1"}>
             <div>
-                <h3>FirstProject</h3>
+                <h3>Morning Java</h3>
             </div>
             </a>
-        <a href='Placeholder' className={"projects"}>
+        <a href="https://gamereviewsnow.herokuapp.com/" className={"project2"}>
             <div>
-                <h3>Second Project</h3>
+                <h3>GameReviewsNow</h3>
                 </div>
                 </a>
         <a href='Placeholder' className={"projects"}>

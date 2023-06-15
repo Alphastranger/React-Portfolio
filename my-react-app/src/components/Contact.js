@@ -9,9 +9,9 @@ const Contact = ()=>{
         localStorage.setItem('Name', firstInput)
         localStorage.setItem('Email', secondInput)
         localStorage.setItem('Message', thirdInput)
-        setfirstInput=('')
-        setSecondInput=('')
-        setThirdInput=('')
+        setfirstInput('')
+        setSecondInput('')
+        setThirdInput('')
     }
 
   const inputChange = (e) => {

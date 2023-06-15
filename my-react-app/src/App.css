@@ -126,12 +126,14 @@ h2, h3{
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  align-content:stretch
+  align-content:stretch;
 }
-.projects {
+.project1 {
   background-color: grey;
-  background-image: url('../images/Joeyface.jpeg');
-  height: 100%;
+  background-image: url('../images/Project1img.png');
+}
+.project2 {
+  background-image: url('../images/GamesNow.png');
 }
 .resumeParent {
   display: flex;
