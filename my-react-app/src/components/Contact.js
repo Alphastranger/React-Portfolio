@@ -1,4 +1,5 @@
 import {React, useState} from "react";
+import { validateEmail } from "../utils/helpers";
 
 const Contact = ()=>{
     const [firstInput, setfirstInput] = useState('');
@@ -6,6 +7,10 @@ const Contact = ()=>{
     const [thirdInput, setThirdInput] = useState('')
     const formSubmit = (e)=>{
         e.preventDefault()
+        if (!validateEmail(secondInput) || !firstInput) {
+            alert('Invalid email or username')
+            return;
+        }
         localStorage.setItem('Name', firstInput)
         localStorage.setItem('Email', secondInput)
         localStorage.setItem('Message', thirdInput)
