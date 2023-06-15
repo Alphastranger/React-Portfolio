@@ -73,7 +73,7 @@
   color: #282c34;
   justify-content: flex-start;
   position: relative;
-  top: 20px;
+  top: 200px;
   display: block;
 }
 .headings {
@@ -131,7 +131,7 @@ h2, h3{
 }
 .projectsPlural {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   align-items: stretch;
   flex-wrap: wrap;
@@ -141,23 +141,13 @@ h2, h3{
   min-height: 250px;
   max-height: 500px;
 }
-.projectsPlural:hover {
-color: aliceblue;
-}
-.project1 {
-  justify-content: space-between;
+.projTitle {
+  display:flex;
+  position: relative;
+  
 }
 .project1:hover {
   color: aliceblue;
-}
-.project2 {
-  background-image: url('./images/GamesNow.png');
-}
-.project3 {
-  background-image: url('./images/WeatherReporter.png')
-}
-.project4 {
-  background-image: url('./images/PasswordGenerator.png');
 }
 .resumeParent {
   display: flex;

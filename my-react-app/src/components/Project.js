@@ -11,29 +11,29 @@ const Project = (props)=>{
   minHeight:'150px',
   maxHeight: '200px',
   border: 'solid 2px black', minWidth:'150px', maxWidth:'300px'}}>
-                <a href='"https://kaylanorris.github.io/morning-java"'><h3>Morning Java</h3></a>
-                <a href="https://github.com/KaylaNorris/morning-java"><i className="fa-brands fa-github"></i></a>
+                <a href='"https://kaylanorris.github.io/morning-java"'><h3 className="projTitles">Morning Java</h3></a>
+                <a href="https://github.com/KaylaNorris/morning-java"><i className="fa-brands fa-github projTitles"></i></a>
             </div>
         <div  className={"project2"} style={{backgroundImage: `url(${Proj2})`,width:'100%', height:'100%', objectFit:'contain', backgroundSize: '100%',
   minHeight:'150px',
   maxHeight: '200px',
   border: 'solid 2px black', minWidth:'150px', maxWidth:'300px'}}>
-                <a href="https://gamereviewsnow.herokuapp.com/"><h3>GameReviewsNow</h3></a>
-                <a href="https://github.com/Alphastranger/Project-2-Team-2"><i className="fa-brands fa-github"></i></a>
+                <a href="https://gamereviewsnow.herokuapp.com/"><h3 className="projTitles">GameReviewsNow</h3></a>
+                <a href="https://github.com/Alphastranger/Project-2-Team-2"><i className="fa-brands fa-github projTitles"></i></a>
                 </div>
         <div  className={"project3"} style={{backgroundImage: `url(${Proj3})`, width:'100%', height:'100%', objectFit:'contain', backgroundSize: '100%',
   minHeight:'150px',
   maxHeight: '200px',
   border: 'solid 2px black', minWidth:'150px', maxWidth:'300px'}}>
-                <a href='https://alphastranger.github.io/Weather-Reporter/'><h3>Weather Reporter</h3></a>
-                <a href="https://github.com/Alphastranger/Weather-Reporter"><i className="fa-brands fa-github"></i></a>
+                <a href='https://alphastranger.github.io/Weather-Reporter/'><h3 className="projTitles">Weather Reporter</h3></a>
+                <a href="https://github.com/Alphastranger/Weather-Reporter"><i className="fa-brands fa-github projTitles"></i></a>
             </div>
         <div className={"project4"} style={{backgroundImage: `url(${Proj4})`, width:'100%', height:'100%', objectFit:'contain', backgroundSize: '100%',
   minHeight:'150px',
   maxHeight: '200px',
   border: 'solid 2px black', minWidth:'150px', maxWidth:'300px'}}>
-            <a href='https://alphastranger.github.io/Password-Generator/'><h3>Password Generator</h3></a>
-            <a href="https://github.com/Alphastranger/Password-Generator"><i className="fa-brands fa-github"></i></a>
+            <a href='https://alphastranger.github.io/Password-Generator/'><h3 className="projTitles">Password Generator</h3></a>
+            <a href="https://github.com/Alphastranger/Password-Generator"><i className="fa-brands fa-github projTitles"></i></a>
         </div>
         </div>
     )
