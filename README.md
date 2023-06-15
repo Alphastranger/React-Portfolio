@@ -8,5 +8,5 @@
 - The portfolio page was a nightmare of CSS and I ended up having to do inline styling to get any of it to work. What is there now is a miracle, as the images in this project were not working until I found out from AskBCS that I could import them inline.
 - Once the pictures were working, things went smoothly, save for an issue with the routes, which an askBCS assistant helped with; apparently I was missing a capital C on the Component call.
 
-[link]()
+[link](https://alphastranger.github.io/React-Portfolio/)
 ![screenshot](./Screenshot.png)
