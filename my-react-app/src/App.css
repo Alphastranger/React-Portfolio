@@ -129,17 +129,16 @@ h2, h3{
   align-content:stretch;
 }
 .project1 {
-  background-color: grey;
-  background-image: url('../images/Project1img.png');
+  background-image: url('./images/Project1img.png');
 }
 .project2 {
-  background-image: url('../images/GamesNow.png');
+  background-image: url('./images/GamesNow.png');
 }
 .project3 {
-  background-image: url('../images/WeatherReporter.png')
+  background-image: url('./images/WeatherReporter.png')
 }
 .project4 {
-  background-image: url('../images/PasswordGenerator.png');
+  background-image: url('./images/PasswordGenerator.png');
 }
 .resumeParent {
   display: flex;
