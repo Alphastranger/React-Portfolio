@@ -127,7 +127,15 @@ h2, h3{
 }
 .portfolioPics {
   display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: stretch;
   flex-wrap: wrap;
+  margin: 25px 0;
+  padding: 10px 10px;
+  background-size: 100%;
+  min-height: 250px;
+  max-height: 500px;
 }
 .projectsPlural {
   display: flex;
