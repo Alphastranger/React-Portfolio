@@ -8,7 +8,7 @@ const Contact = ()=>{
     const formSubmit = (e)=>{
         e.preventDefault()
         if (!validateEmail(secondInput) || !firstInput) {
-            alert('Invalid email or username')
+            alert('Invalid email or name')
             return;
         }
         if(!thirdInput) {
@@ -44,7 +44,7 @@ const Contact = ()=>{
                 <h3>Email address:</h3>
                 <input type="text" value={secondInput} name="email" onChange={inputChange}></input>
                 <h3>Message:</h3>
-                <input type="textarea" value={thirdInput} name="message" onChange={inputChange}></input><br></br>
+                <input className="textArea" type="textarea" value={thirdInput} name="message" onChange={inputChange}></input><br></br>
                 <button className="submitBut">Submit</button>
 
             </form>

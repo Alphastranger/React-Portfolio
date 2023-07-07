@@ -11,8 +11,8 @@ const Project = (props)=>{
   minHeight:'150px',
   maxHeight: '200px',
   border: 'solid 2px black', minWidth:'150px', maxWidth:'300px'}}>
-                <a href={props.url}><h3 style={{display:'inline',position: 'relative', top: '170px', color: 'aliceblue', backgroundColor: 'rgb(39,114,107)', borderRadius: '3px'}}>{props.title}</h3></a>
-                <a href={props.github}><i className="fa-brands fa-github" style={{display:'inline',position: 'relative', top: '170px', color: 'rgb(39,114,107)'}}></i></a>
+                <a href={props.url}><h3 style={{display:'inline',position: 'relative', top: '170px', color: 'aliceblue', backgroundColor: 'rgb(10,90,30)', borderRadius: '0px 3px 3px 0px', padding: '2px'}}>{props.title}</h3></a>
+                <a href={props.github}><i className="fa-brands fa-github" style={{display:'inline',position: 'relative', top: '170px', left: '10px', color: 'rgb(10,90,30)'}}></i></a>
             </div>
         </div>
     )
