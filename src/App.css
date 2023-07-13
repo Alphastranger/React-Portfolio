@@ -1,3 +1,6 @@
+a:link {
+  text-decoration: none;
+}
 .App {
   text-align: center;
 }
@@ -23,13 +26,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
-
-
-
 .About {
   display: block;
   position: relative;
@@ -39,34 +38,22 @@
   align-items: center;
   width: 700px;
   left: 200px;
-
+  transition-delay: 1s;
+  transition: width 2s;
 }
 .AboutTitle {
   display: flex;
   justify-content: flex-start;
 }
-.faceImage {
-  height: 200px;
-  width:200px;
-  float:left;
-  margin: 0px 10px 10px 0px;
-  border-radius: 20px;
-}
 .active {
   display: inline;
   background-color: rgb(39,114,107);
 }
-.contactPage {
+body {
+  background-color: white;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
-}
-.contactForm button {
-  background-color: rgb(10, 90, 30);
-  border-radius: 4px;
-  display: flex;
-  margin-left: 40px;
 }
 .bottomScreen {
   display: flex;
@@ -85,6 +72,31 @@
   padding: 0px 3px;
   margin-top: 2px;
 }
+.contactPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contactForm button {
+  background-color: rgb(10, 90, 30);
+  border-radius: 4px;
+  display: flex;
+  margin-left: 40px;
+}
+.faceImage {
+  height: 200px;
+  width:200px;
+  float:left;
+  margin: 0px 10px 10px 0px;
+  border-radius: 20px;
+  transition-delay: 1s;
+  transition: width 2s, height 2s;
+}
+.faceImage:hover {
+  height: 300px;
+  width: 300px;
+}
 .footer {
   color: #282c34;
   justify-content: flex-start;
@@ -100,30 +112,6 @@
   flex-direction: row;
   align-items: flex-end;
   padding: 0%
-}
-.textArea {
-  height: 50px
-}
-.navLinks {
-  color: White;
-  display: inline;
-  justify-content: space-between;
-  flex-direction: row;
-  padding: 4px;
-  border-radius: 3px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.navLinks:hover {
-  background-color: rgb(39,114,107);
-}
-a:link {
-  text-decoration: none;
-}
-body {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 .header {
   display: block;
@@ -142,7 +130,34 @@ h2, h3{
   top: 90px;
   font-size: 36px;
   font-family:Georgia,'Times New Roman',Times, serif;
+  animation-name: Name;
+  animation-duration: 4s;
+  left: 10px
 }
+@keyframes Name {
+  0% {color: white; left:50px; top:0px}
+  25% {color: grey; left: 0px; top:10px}
+  50% {color: darkgreen; left: 30px; top:20px;}
+  75% {color: lightblue; left: 100px; top: 50px}
+  100% {color: white; left:10px; top: 90px}
+}
+.navLinks {
+  color: White;
+  display: inline;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 4px;
+  border-radius: 3px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navLinks:hover {
+  background-color: rgb(39,114,107);
+}
+.textArea {
+  height: 50px
+}
+
+
 .portfolioPics {
   display: flex;
   justify-content: space-around;
