@@ -10,7 +10,7 @@ const Nav = () => {
     const headingHighlights =['About-Me', 'contact', 'portfolio', 'resume']
     for (let i=0; i<headingHighlights.length; i++){
      if (window.location.href.indexOf(headingHighlights[i])>-1) {
-        activePage[i]=('active')
+        setActive[i]=('active')
      }
 }
     return (

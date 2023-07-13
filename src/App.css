@@ -92,10 +92,20 @@ body {
   border-radius: 20px;
   transition-delay: 1s;
   transition: width 2s, height 2s;
+  
+}
+@keyframes face {
+  from {
+    transform: rotate(180deg)}
+    to {
+      transform: rotate(360deg)
+    }
 }
 .faceImage:hover {
   height: 300px;
   width: 300px;
+  animation-name: face;
+  animation-duration: 2s;
 }
 .footer {
   color: #282c34;
@@ -135,8 +145,8 @@ h2, h3{
   left: 10px
 }
 @keyframes Name {
-  0% {color: white; left:50px; top:0px}
-  25% {color: grey; left: 0px; top:10px}
+  0% {color: white; left:50px; top:0px;}
+  25% {color: grey; left: 0px; top:10px;}
   50% {color: darkgreen; left: 30px; top:20px;}
   75% {color: lightblue; left: 100px; top: 50px}
   100% {color: white; left:10px; top: 90px}
@@ -153,11 +163,6 @@ h2, h3{
 .navLinks:hover {
   background-color: rgb(39,114,107);
 }
-.textArea {
-  height: 50px
-}
-
-
 .portfolioPics {
   display: flex;
   justify-content: space-around;
@@ -199,9 +204,9 @@ h2, h3{
 .resume {
   display: flex;
 }
-
-
-
+.textArea {
+  height: 50px
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
