@@ -27,6 +27,7 @@ const Resume = ()=>{
                     <li>MongoDB</li>
                     <li>PWAs</li>
                     <li>React</li>
+                    <li>GraphQL</li>
                 </ul>
             </div>
         </div>

@@ -40,11 +40,11 @@ const Contact = ()=>{
             <h2>Contact</h2>
             <form className='contactForm' onSubmit={formSubmit}>
                 <h3>Name:</h3>
-                <input type="text" value={firstInput} name="name" onChange={inputChange}></input>
+                <input className="text"type="text" id='contactName'value={firstInput} name="name" onChange={inputChange}></input>
                 <h3>Email address:</h3>
-                <input type="text" value={secondInput} name="email" onChange={inputChange}></input>
+                <input className="text"type="text" id='contactEmail'value={secondInput} name="email" onChange={inputChange}></input>
                 <h3>Message:</h3>
-                <input className="textArea" type="textarea" value={thirdInput} name="message" onChange={inputChange}></input><br></br>
+                <input className="textArea" id='contactMessage'type="textarea" value={thirdInput} name="message" onChange={inputChange}></input><br></br>
                 <button className="submitBut">Submit</button>
 
             </form>
