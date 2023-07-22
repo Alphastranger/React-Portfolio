@@ -84,12 +84,16 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  
 }
 .contactPage h2, h3 {
   color: rgb(230, 98, 27)
 }
 .contactForm {
-  color: black
+  color: black;
+  padding: 10px;
+  padding-left: 30px;
+  border-left: 2px solid rgb(230, 98, 27);
 }
 .contactForm button {
   background-color: rgb(230, 98, 27);
