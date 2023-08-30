@@ -11,7 +11,7 @@ const Portfolio = () => {
         <div>
     <h2 className="portH2">Portfolio</h2>
         <div className={"portfolioPics"}>
-            <Project url="https://kaylanorris.github.io/morning-java" github="https://github.com/KaylaNorris/morning-java" image={Proj1} title='Morning Java'/>
+            <Project url="https://kaylanorris.github.io/morning-java" github="https://github.com/KaylaNorris/morning-java" image={Proj1} title='Morning Java' description='An all in one website that tracks news, the weather, and the stock market.'/>
             <Project url="https://gamereviewsnow.herokuapp.com/" github="https://github.com/Alphastranger/Project-2-Team-2" image={Proj2} title='GameReviewsNow'/>
             <Project url='https://alphastranger.github.io/Weather-Reporter/' github="https://github.com/Alphastranger/Weather-Reporter" image={Proj3} title='Weather Reporter'/>
             <Project url='https://alphastranger.github.io/Password-Generator/' github="https://github.com/Alphastranger/Password-Generator" image={Proj4} title='Password Generator'/>

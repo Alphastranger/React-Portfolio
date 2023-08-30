@@ -198,6 +198,9 @@ h2, h3{
   justify-content: center;
   color: rgb(230, 98, 27);
 }
+.projDesc {
+  height:100px;
+}
 .projectsPlural {
   display: flex;
   justify-content: space-around;
@@ -205,6 +208,7 @@ h2, h3{
   align-items: stretch;
   flex-wrap: wrap;
   margin: 25px 0;
+  width:300px;
   padding: 10px 10px;
   background-size: 100%;
   min-height: 250px;

@@ -13,7 +13,8 @@ const Project = (props)=>{
   border: 'solid 2px rgb(230,98,27)', minWidth:'150px', maxWidth:'300px', borderRadius:'4px'}}>
             <h3 style={{display:'inline',position: 'relative', top: '150px', color: 'aliceblue', backgroundColor: 'rgb(230,98,27)', borderRadius: '0px 3px 3px 0px', padding: '2px', marginBottom:'205px'}}>{props.title}</h3></a>
             
-            <a href={props.github}><i className="fa-brands fa-github" style={{display:'inline',position: 'relative', top: '155px', right: '30px', color: 'rgb(230,98,27)'}}></i></a>
+            <a href={props.github}><i className="fa-brands fa-github" style={{display:'inline',position: 'relative', top: '-50px', left: '250px', color: 'rgb(230,98,27)'}}></i></a>
+            <p className="Projdesc" style={{position:'relative', top:'0px', right:'0px', display:'flex', flexWrap:'wrap', justifyContent:'center', width:'260px', height:'100px'}}>{props.description}</p>
         </div>
     )
 }
