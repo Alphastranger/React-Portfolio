@@ -15,7 +15,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path ='/React-Portfolio' Component={AboutMe}></Route>
+        <Route path ='/Portfolio' Component={AboutMe}></Route>
         <Route path='/About-Me' Component={AboutMe}></Route>
 
         <Route path='/contact' Component={Contact}></Route>
